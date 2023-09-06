@@ -11,6 +11,7 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
 ## Prerequisites
 
 - Before using the tool, make sure you have **Node.js** installed on your machine.
+- Get if from the official website [here](https://nodejs.org/en).
 
 ### Installation
 
@@ -19,33 +20,37 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
 
    ```bash
    git clone https://github.com/Shivanshm001/IP-Locator-CLI.git
-
+    ```
 2. Navigate to the repository directory:
    ```bash
    cd IP-Locator-CLI
-
+    ```
 3. Install dependencies
    ```bash
    npm install
-
+    ```
 ## Usage
 
 ### Options
+ ```bash
   - -V, --version                 output the version number
   - -i, --ip-address <ipAddress>  Specify the IP address
   - -h, --help                    display help for command
- 
+```
  - To retrieve information about an IP address, use the following command :
    ```bash
    node locator.js -i <ip_address>
+   ```
 
-   Replace <ip_address> with the IP address you want to locate. If you omit the -i option, the tool will fetch information about your own IP address.
+   - Replace <ip_address> with the IP address you want to locate.
+   - If you omit the -i option, the tool will fetch information about your own IP address.
 
 ### Example
   ```bash
   node locator.js -i 8.8.8.8
-
+  ```
 **Output:**
+  ```bash
   Fetching info...
   IP : 8.8.8.8
   City : Mountain View
@@ -54,6 +59,7 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
   Postal : 94035
   Longitude/Latitude : 37.3860,-122.0838
   ISP : AS15169 Google LLC
+  ```
 
 
  
