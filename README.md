@@ -45,7 +45,7 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
    ```
 
    - Replace ```<ip_address>``` with the IP address you want to locate.
-   - If you omit the -i option, the tool will fetch information about your own IP address.
+   - If ```-i``` option is ommited, the tool will fetch information about your own IP address.
 
 ### Output
 
@@ -65,13 +65,13 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
  1. Look up information about a specific IP address:
   
     ```bash
-        node locator.js -i 8.8.8.8
+    node locator.js -i 8.8.8.8
     ```
 
  2. Look up information for your own IP address:
     
     ```bash
-        node locator.js
+    node locator.js
     ```
 
 **Example Output**
@@ -100,8 +100,9 @@ This IP Address Locator CLI Tool is open-source software released under the MIT 
 You can find the full license text in the [LICENSE](https://github.com/Shivanshm001/IP-Locator-CLI/blob/main/LICENSE) file.
 
 ## Acknowledgements
-    - This tool was created using Node.js and the [ipinfo.io](https://ipinfo.io/) API.
-    - It was developed as a practical example of using Node.js and command-line interfaces (CLI).
+    
+- This tool was created using Node.js and the [ipinfo.io](https://ipinfo.io/) API.
+- It was developed as a practical example of using Node.js and command-line interfaces (CLI).
   
 ## Contributing
 
@@ -111,5 +112,5 @@ please feel free to open an issue or submit a pull request on the GitHub reposit
 ### Author
 Shivansh Mishra
 
-** Contact **
+**Contact**
 Shivanshmishra.web@gmail.com
