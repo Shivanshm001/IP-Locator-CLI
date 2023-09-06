@@ -56,15 +56,12 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
 
   1. Look up information about a specific IP address:
   
-    ```bash
     node locator.js -i 8.8.8.8
-    ```
+  
 
   2. Look up information for your own IP address:
     
-    ```bash
     node locator.js
-    ```
 
  **Example Output**
 
