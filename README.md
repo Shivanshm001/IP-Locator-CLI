@@ -45,7 +45,7 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
   ```bash
   node locator.js -i 8.8.8.8
 
-  **Output:**
+**Output:**
   Fetching info...
   IP : 8.8.8.8
   City : Mountain View
