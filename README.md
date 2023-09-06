@@ -1,8 +1,20 @@
-# IP-Locator-CLI
- 1.A CLI application for getting the details of an IP address.
- 1.This uses the ipinfo api to get information about the IP address.
+# IP Address Locator CLI Tool
 
-    Options:
-  -V, --version                 output the version number
-  -i, --ip-address <ipAddress>  Specify the IP address
-  -h, --help                    display help for command
+An IP address locator CLI tool built using Node.js and the Commander library. This tool allows you to retrieve location information for a given IP address or for your own IP address.
+
+## Features
+
+- Fetches and displays geographical and ISP information for an IP address.
+- Supports specifying the target IP address as a command-line argument.
+- Defaults to locating your own IP address if no IP address is specified.
+
+## Usage
+
+### Installation
+
+Before using the tool, make sure you have Node.js installed on your machine.
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
