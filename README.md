@@ -80,7 +80,6 @@ Upon successful execution, the tool will display information about the specified
 similar to the following:
 
   ```bash
-  Fetching info...
   IP : 8.8.8.8
   City : Mountain View
   Region : California
@@ -112,5 +111,5 @@ please feel free to open an issue or submit a pull request on the GitHub reposit
 ### Author
 Shivansh Mishra
 
-**Contact**
+**Gmail :**
 Shivanshmishra.web@gmail.com
