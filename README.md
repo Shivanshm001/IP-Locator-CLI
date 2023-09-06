@@ -64,20 +64,20 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
 
  1. Look up information about a specific IP address:
   
-  ```bash
-    node locator.js -i 8.8.8.8
-  ```
+    ```bash
+        node locator.js -i 8.8.8.8
+    ```
 
  2. Look up information for your own IP address:
     
     ```bash
-     node locator.js
+        node locator.js
     ```
 
 **Example Output**
 
-    Upon successful execution, the tool will display information about the specified IP address, 
-    similar to the following:
+Upon successful execution, the tool will display information about the specified IP address, 
+similar to the following:
 
   ```bash
   Fetching info...
@@ -92,26 +92,24 @@ An IP address locator CLI tool built using Node.js and the Commander library. Th
 
 ## Error Handling
 
-    If there is an error while locating the IP address, the tool will display an error message and provide details about the error.
+If there is an error while locating the IP address, the tool will display an error message and provide details about the error.
 
 ## License
 
-    This IP Address Locator CLI Tool is open-source software released under the MIT License. 
-    You can find the full license text in the [LICENSE](https://github.com/Shivanshm001/IP-Locator-CLI/blob/main/LICENSE) file.
+This IP Address Locator CLI Tool is open-source software released under the MIT License. 
+You can find the full license text in the [LICENSE](https://github.com/Shivanshm001/IP-Locator-CLI/blob/main/LICENSE) file.
 
 ## Acknowledgements
-
     - This tool was created using Node.js and the [ipinfo.io](https://ipinfo.io/) API.
     - It was developed as a practical example of using Node.js and command-line interfaces (CLI).
   
 ## Contributing
 
-    If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository.
+If you encounter any issues or have suggestions for improvements,
+please feel free to open an issue or submit a pull request on the GitHub repository.
 
 ### Author
+Shivansh Mishra
 
-    Shivansh Mishra
-
-    ** Contact **
-    
-    Shivanshmishra.web@gmail.com
+** Contact **
+Shivanshmishra.web@gmail.com
