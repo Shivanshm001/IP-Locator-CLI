@@ -17,4 +17,13 @@ Before using the tool, make sure you have Node.js installed on your machine.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Shivanshm001/IP-Locator-CLI.git
+
+2. Navigate to the repository directory:
+   ```bash
+   cd IP-Locator-CLI
+
+3. Install dependencies
+   ```bash
+   npm install
+
